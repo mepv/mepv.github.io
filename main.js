@@ -52,5 +52,6 @@ document.querySelector('.menu-btn').addEventListener('click', () => {
 });
 
 ScrollReveal().reveal('.showcase');
+ScrollReveal().reveal('.showcase h2', {delay: 500});
 ScrollReveal().reveal('.news-cards', {delay: 500});
 ScrollReveal().reveal('.cards-banner', {delay: 500});
