@@ -257,6 +257,34 @@ hr {
     color: #36454f;
 }
 
+/* PORTAFOLIO */
+.portafolio-title {
+    font-size: 3em;
+    border-bottom: 2px solid #36454f;
+    border-right: 2px solid #36454f;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portafolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portafolio img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+.portafolio img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 /* CONTACT */
 
 .section-form {
@@ -528,6 +556,10 @@ button[type="submit"]:hover {
     .service-cards .content {
         width: 100%;
         padding: 60px 20px;
+    }
+    .portafolio img {
+        width: 350px;
+        height: 230px;
     }
     .footer-links .footer-container {
         grid-template-columns: 1fr;
